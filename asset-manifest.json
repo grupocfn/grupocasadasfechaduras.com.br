@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7137e32.css",
+    "main.js": "/static/js/main.dec10cbc.js",
+    "static/media/cflogo.png": "/static/media/cflogo.066b61e68b8b7658c3c5.png",
+    "static/media/cfnlogo.png": "/static/media/cfnlogo.1497454e52b400b1805e.png",
+    "static/media/cfbg.jpg": "/static/media/cfbg.f2b365ef3df4f89cb117.jpg",
+    "static/media/bblogo.png": "/static/media/bblogo.a30964533b1255b1d2bf.png",
+    "static/media/bg-geral.jpg": "/static/media/bg-geral.b31161c02a13d8c3b0b6.jpg",
+    "static/media/cfnbg.jpg": "/static/media/cfnbg.372a854e39909799bac1.jpg",
+    "static/media/bbbg.jpg": "/static/media/bbbg.8b24bb3009d062ae0927.jpg",
+    "index.html": "/index.html",
+    "main.e7137e32.css.map": "/static/css/main.e7137e32.css.map",
+    "main.dec10cbc.js.map": "/static/js/main.dec10cbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7137e32.css",
+    "static/js/main.dec10cbc.js"
+  ]
+}
