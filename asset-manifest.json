@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grupocasadasfechaduras/static/css/main.351b6e72.css",
-    "main.js": "/grupocasadasfechaduras/static/js/main.14c0f8bf.js",
+    "main.js": "/grupocasadasfechaduras/static/js/main.d7c514c1.js",
     "static/media/cflogo.png": "/grupocasadasfechaduras/static/media/cflogo.066b61e68b8b7658c3c5.png",
     "static/media/cfnlogo.png": "/grupocasadasfechaduras/static/media/cfnlogo.1497454e52b400b1805e.png",
     "static/media/cfbg.jpg": "/grupocasadasfechaduras/static/media/cfbg.f2b365ef3df4f89cb117.jpg",
@@ -11,10 +11,10 @@
     "static/media/bbbg.jpg": "/grupocasadasfechaduras/static/media/bbbg.8b24bb3009d062ae0927.jpg",
     "index.html": "/grupocasadasfechaduras/index.html",
     "main.351b6e72.css.map": "/grupocasadasfechaduras/static/css/main.351b6e72.css.map",
-    "main.14c0f8bf.js.map": "/grupocasadasfechaduras/static/js/main.14c0f8bf.js.map"
+    "main.d7c514c1.js.map": "/grupocasadasfechaduras/static/js/main.d7c514c1.js.map"
   },
   "entrypoints": [
     "static/css/main.351b6e72.css",
-    "static/js/main.14c0f8bf.js"
+    "static/js/main.d7c514c1.js"
   ]
 }
