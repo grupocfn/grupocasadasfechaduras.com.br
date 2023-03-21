@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/grupocasadasfechaduras' element={<Home />}/>
         <Route path='/avaliacaocfn' element={<AvaliacaoCFN />}/>
       </Routes>
     </BrowserRouter>
