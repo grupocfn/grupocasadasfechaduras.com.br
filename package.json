@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build --max_old_space_size=4096 build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
