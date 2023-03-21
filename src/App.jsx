@@ -1,19 +1,18 @@
+import { Route } from 'react-router';
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.scss';
-import Cards from './components/Cards';
+import AvaliacaoCFN from './pages/AvaliacaoCFN';
+import { Home } from './pages/Home';
 
 
 function App() {
   return (
-    <div className="App">
-      <div className="main-container">
-        <header className="header">
-          <h1 className='titulo'>OLÁ!</h1>
-          <p className='subtitulo'>Seja bem-vindo ao <strong>Grupo Casa das Fechaduras</strong></p>
-          <h3 className='texto'>ESCOLHA QUAL DAS LOJAS VOCÊ DESEJA ENTRAR</h3>
-        </header>
-        <Cards />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/avaliacaocfn' element={<AvaliacaoCFN />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
