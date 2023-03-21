@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/grupocasadasfechaduras/' element={<Home />}/>
         <Route path='/avaliacaocfn' element={<AvaliacaoCFN />}/>
         <Route path='/avaliacaocfer' element={<AvaliacaoCFER />}/>
         <Route path='/avaliacaocfsg' element={<AvaliacaoCFSG />}/>
