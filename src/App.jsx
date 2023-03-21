@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/grupocfn' element={<Home />}/>
-        <Route path='/grupocfn/avaliacaocfn' element={<AvaliacaoCFN />}/>
+        <Route path='/grupocasadasfechaduras' element={<Home />}/>
+        <Route path='/grupocasadasfechaduras/avaliacaocfn' element={<AvaliacaoCFN />}/>
         <Route path='/avaliacaocfer' element={<AvaliacaoCFER />}/>
         <Route path='/avaliacaocfsg' element={<AvaliacaoCFSG />}/>
         <Route path='/avaliacaobb' element={<AvaliacaoBB />}/>
