@@ -4,7 +4,7 @@ import Cards from '../components/Cards'
 import './Home.scss';
 
 
-export const Home = () => {
+export default function Home() {
   return (
     <div className="Home">
       <div className="main-container">
