@@ -1,8 +1,7 @@
-import React from 'react'
-import Cards from '../components/Cards'
+import React from 'react';
+import Cards from '../components/Cards';
 
 import './Home.scss';
-
 
 export default function Home() {
   return (

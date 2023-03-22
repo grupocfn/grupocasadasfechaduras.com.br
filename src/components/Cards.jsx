@@ -8,27 +8,23 @@ import bbbg from '../assets/cards/bbbg.jpg'
 import cfnlogo from '../assets/cards/cfnlogo.png'
 import cflogo from '../assets/cards/cflogo.png'
 import bblogo from '../assets/cards/bblogo.png'
-import { Link } from 'react-router-dom'
 
 export default function Cards() {
   return (
     <section id="card-container">
-      <Link to="/avaliacaocfn">
-        <a href="https://www.casadasfechaduras.com.br" rel="noreferrer" target="_blank">
-          <Card className="card-class">
-            <Card.Img className="card-bg" variant="top" alt="Car1" src={cfnbg} />
-            <Card.ImgOverlay>
-              <Card.Title>
-                <img src={cfnlogo} alt="Casa das Fechaduras" className='card-logo' />
-              </Card.Title>
-              <Card.Text className='card-text'>
-                Loja especializada em fechaduras, puxadores e ferragens em geral. Amplo estoque, atendimento especializado e uma estrutura completa proporcionam ótimas experiências de compras.
-              </Card.Text>
-
-            </Card.ImgOverlay>
-          </Card>
-        </a>
-      </Link>
+      <a href="https://www.casadasfechaduras.com.br" rel="noreferrer" target="_blank">
+        <Card className="card-class">
+          <Card.Img className="card-bg" variant="top" alt="Car1" src={cfnbg} />
+          <Card.ImgOverlay>
+            <Card.Title>
+              <img src={cfnlogo} alt="Casa das Fechaduras" className='card-logo' />
+            </Card.Title>
+            <Card.Text className='card-text'>
+              Loja especializada em fechaduras, puxadores e ferragens em geral. Amplo estoque, atendimento especializado e uma estrutura completa proporcionam ótimas experiências de compras.
+            </Card.Text>
+          </Card.ImgOverlay>
+        </Card>
+      </a>
 
       <a href="http://www.lojacasaferramentas.com/" rel="noreferrer" target="_blank">
         <Card className="card-class">
